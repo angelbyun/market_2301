@@ -6,12 +6,14 @@ class Market
   def initialize(name)
     @name = name
     @vendors = []
-    vendor_names = []
+    @vendor_names = []
   end
 
   def add_vendor(vendor)
     @vendors << vendor
   end
+
+  
 
   # def add_vendor_name(vendor_name)
   #   @vendor_names << vendor_name
