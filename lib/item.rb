@@ -1,6 +1,7 @@
 class Item
   attr_reader :name,
-              :price
+              :price,
+              :value
 
   def initialize(item_info)
     @name = item_info[:name]
